@@ -10,10 +10,73 @@ body {
   background-color: #333;
 }
 
-.autocomplete{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.autocomplete {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.autocomplete__input {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.button {
+  padding: 20px;
+  color: #f4f4f4;
+  background-color: #1b1b1b;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid #fff6f6;
+}
+
+.suggestions {
+  position: absolute;
+  top: 58vh;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  max-height: 300px;
+  width: 50%;
+  overflow-y: auto;
+  background: rgb(136, 210, 235);
+}
+
+.suggestions button {
+  background: transparent;
+  color: #1b1b1b;
+  width: 100%;
+  border-radius: 0px;
+  border: none;
+}
+
+.suggestions button:hover {
+  border-bottom: 1px solid #1b1b1b;
+  border-top: 1px solid #1b1b1b;
+  background: rgb(159, 222, 243);
+}
+
+.input-box {
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  width: 80%;
+}
+
+.suggestions button[data-selected="true"] {
+  background: rgb(226, 226, 124);
 }

@@ -26,9 +26,12 @@ const Suggestions = [
 ];
 
 const App = () => {
+  function onChange(value) {
+    console.log("value:", value);
+  }
   return (
     <div className="App">
-      <AutoComplete suggestions={Suggestions} />
+      <AutoComplete suggestions={Suggestions} onChange={onChange} />
     </div>
   );
 };
