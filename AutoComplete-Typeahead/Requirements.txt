@@ -1,0 +1,16 @@
+Requirements for AutoComplete Typeahead 
+=================================================
+
+1. User should be able to type onthe text field
+2. Ifthere is a suggestion avaailable, show them below the text field
+3. User can select option from the list
+4. Handle no suggestions found case
+5. Once the selection is made, the suggestions should be hidden
+6. User should be able to clear the text field, with a clear button
+7. Selected item should be displayed, then rest of the options.
+
+Bonus Points:
+
+- Get suggestions from an API
+- Show loader while fetching suggestions
+- Debounce the input
