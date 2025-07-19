@@ -1,0 +1,15 @@
+# Pagination Requirements
+==============================
+1. Two ways
+    a. We have all the data, we want to show limited data per page.
+    b. We have large data, but we fetch only limited data, based on the number of items per page
+
+2. User can change page by clicking Next Previous First Last button.
+3. User can change the number of items shown per page.
+4. User can get page number options (1, 2, 3, 4) and it should change page number on click.
+5. Current page number button should be highlighted.
+
+## Additional Tasks
+
+1. At a given time only show 5 buttons to indicate page numbers. Change the button number based on what is the current page.
+2. Show a ... button to navigate to the first and last page. Based on where you are.
