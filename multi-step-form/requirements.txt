@@ -1,0 +1,8 @@
+Mutli Step Form
+
+Requirements 
+
+1. You have a form to fill, it has 3 steps. make the UI.
+2. Next page should only be visible if the previous is fillled.
+3. User should be able to go  to the previous page.
+4. When all the data are submitted, remove the form and show a success message.
