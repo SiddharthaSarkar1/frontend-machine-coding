@@ -1,0 +1,14 @@
+File Explorer
+
+Requirements
+
+1. Should be able to view the directory structure
+2. Able to add folder and files
+3. Able to expand and collapse the view
+4. State Machine
+(State Machine is a pattern that allows you to manage the state of your application in a predictable way. It can be used to handle the different states of the file explorer, such as viewing files, adding files, and expanding or collapsing folders.)
+
+Level Up
+
+1. Make the explorer editable and deletable
+2. Use any other approach

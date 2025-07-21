@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tree {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+  gap: 10px;
+}
+
+.text-bold {
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(2, 2, 92);
+}
